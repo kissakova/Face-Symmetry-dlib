@@ -9,7 +9,7 @@ If you, however, want to return the picture with with 68 allocated points, run t
 
 # Important!
 Running the code requires the installation of heavy dependencies on your computer locally. Once you put all the files downloaded from the current repository on your Python environment you should be getting warning errors from the output that will require you to install packages. 
-Please, install them all. Also make sure to have both "dlib-face-recognition_resnet_model_v1.dat" and "shape_predictor_68_face_landmarks.dat" in the same directory as your PyCharm file. 
+Please, install them all. 
 
 If you follow the directions in the next section, you will get the Symmetry Index output in number. 
 
