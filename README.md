@@ -16,6 +16,7 @@ If you follow the directions in the next section, you will get the Symmetry Inde
 # How to run this code on PyCharm?
 1. Create a new Project (File->New Project)
 2. Find VCS on the top panel -> Get from Version Control -> paste current repo's URL -> Clone
+(Alternatively, you can just transfer all the files yourself into your PyCharm project directory)
 3. Download "shape_predictor_68_face_landmarks.dat" file from https://drive.google.com/file/d/1v0nGz_rvGeWp3eiJg_50-9IyLPTIoWwj/view?usp=share_li
 4. {optional} Navigate the .dat file into the current pycharm project directory 
 5. Install CMake Library (Python Packages on lower panel -> type CMake)
@@ -24,10 +25,10 @@ If you follow the directions in the next section, you will get the Symmetry Inde
 8. Install opencv-python package
 9. Install matplotlib package
 10. Install pandas package
-11. Install scikit-learn package
+12. Install scikit-learn package
 
-For path_to_folder (first instance):
+* For path_to_folder (first instance):
 Make sure to preliminarily add the images to the folder and only assign integer names to them. The only allowed restrictions are: .jpeg and .jpg. Copy the folder path and insert it into the code. 
 
-For predictor:
+* For predictor:
 Make sure to copy the right path of the "shape_predictor_68_face_landmarks.dat" file 
