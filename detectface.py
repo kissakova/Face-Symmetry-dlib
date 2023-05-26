@@ -26,10 +26,10 @@ from sklearn.metrics import recall_score
 from sklearn.metrics import precision_recall_fscore_support
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('../shape_predictor_68_face_landmarks.dat')
-image = cv2.imread("/Users/issakovakamilla/Desktop/Papers/Thesis/pics/668.jpg")
+predictor = dlib.shape_predictor('.../shape_predictor_68_face_landmarks.dat')
+image = cv2.imread("/Users/issakovakamilla/Desktop/Papers/Thesis/pic/2.jpeg")
 
-image = cv2.resize(image, (600,500))
+image = cv2.resize(image, (400,500))
 # Convert the image color to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Detect the face
@@ -51,4 +51,6 @@ for rect in rects:
 
 # Display the image
 cv2.imshow('Landmark Detection', image)
-cap.release()
+#cap.release()
+cv2.waitKey(0)
+cv2.destroyAllWindows()
